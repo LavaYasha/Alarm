@@ -20,6 +20,10 @@
 # is commented out by default.
 #.vscode/
 
+#Build files
+/apk/
+/build/
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
@@ -29,7 +33,6 @@
 .packages
 .pub-cache/
 .pub/
-/build/
 
 # Web related
 lib/generated_plugin_registrant.dart

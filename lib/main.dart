@@ -10,9 +10,10 @@ class AlarmApp extends StatelessWidget{
     return MaterialApp(
       title: "Alarm",
       theme: ThemeData(
-        primaryColorBrightness: Brightness.dark,
-        primaryColor: Colors.black,
-        accentColor: Colors.grey
+        primaryColor: Color.fromRGBO(40, 45, 60, 1),
+        textTheme: TextTheme(
+          headline6: TextStyle(color: Colors.white)
+        ),
       ),
       home: MainScreen(),
     );
