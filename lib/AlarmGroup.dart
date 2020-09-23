@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:alarm_app/Alarm.dart';
 
-class AlarmGrop{
-  String title;
-  String discriptions;
-  bool isOpen;
+class AlarmGroup {
+  AlarmGroup({this.hederTitle, this.alarmList, this.isExpanded});
 
-  AlarmGrop({this.title, this.discriptions, this.isOpen = false});
+  String hederTitle; 
+  List<Alarm> alarmList;
+  bool isExpanded;
+  bool isEnables = false;
 }
+
+
